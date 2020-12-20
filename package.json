@@ -1,0 +1,18 @@
+{
+  "name": "fullstuck",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Judd Hendrix",
+  "license": "MIT",
+  "dependencies": {
+    "fastify": "^3.9.2"
+  },
+  "devDependencies": {
+    "dotenv-cli": "^4.0.0",
+    "jest": "^26.6.3"
+  },
+  "scripts": {
+    "dev": "dotenv node index.js",
+    "test": "jest"
+  }
+}
